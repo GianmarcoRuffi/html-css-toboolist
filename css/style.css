@@ -1,0 +1,48 @@
+/*Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  background-color: white;
+  width: 600px;
+  margin: 30px auto;
+  border-radius: 6px;
+}
+
+body {
+  background-color: rgb(212, 212, 212);
+}
+
+#logo {
+  vertical-align: middle;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.add-task {
+  background-color: #47adf1;
+  color: white;
+}
+
+.add-section {
+  background-color: white;
+  color: gray;
+  border-color: gray;
+  border: 1px solid;
+}
+
+nav {
+  padding: 10px 20px 10px 20px;
+}
+
+.button {
+  display: inline-block;
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px 10px 10px 10px;
+  border-color: gray;
+}
