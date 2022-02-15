@@ -75,7 +75,6 @@ p {
 .list {
   color: rgb(82, 82, 82);
   font-size: 25px;
-  line-height: 1.5em;
   padding-left: 50px;
   padding-bottom: 40px;
   padding-top: 20px;
@@ -86,35 +85,59 @@ p {
   font-size: 20px;
 }
 
+li {
+  margin: 10px 0;
+}
+
+ul li:before {
+  content: "\2713";
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  display: inline-block;
+  color: green;
+  padding: 0 0 0 0;
+  border-color: green;
+  border: 1px solid;
+  border-radius: 20px 20px;
+  width: 21px;
+  font-size: 0.7em;
+}
+
+ul li {
+  list-style-type: none;
+  font-size: 1em;
+}
+
 .labels {
   display: inline-block;
   text-align: center;
   font-size: 19px;
   border-radius: 20px;
-  padding: 0 10px 0 10px;
+  padding: 10px 10px 10px 10px;
   color: white;
 }
 
-#bluelabel {
+.bluelabel {
   background-color: #45abea;
 }
 
-#purplelabel {
+.purplelabel {
   background-color: #9c72e4;
 }
 
-#greenlabel {
+.greenlabel {
   background-color: #64c0a9;
 }
 
-#orangelabel {
+.orangelabel {
   background-color: #f29e33;
 }
 
-#redlabel {
+.redlabel {
   background-color: #d863a1;
 }
 
-#pistachiolabel {
+.pistachiolabel {
   background-color: #b0c926;
 }
