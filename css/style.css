@@ -65,11 +65,33 @@ p {
 }
 
 .done {
+  content: "\2713";
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  display: inline-block;
   color: green;
+  padding: 0 0 0 0;
+  border-color: green;
+  border: 1px solid;
+  border-radius: 20px 20px;
+  width: 21px;
+  font-size: 0.7em;
 }
 
 .undone {
+  content: "\2718";
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  display: inline-block;
   color: red;
+  padding: 0 0 0 0;
+  border-color: red;
+  border: 1px solid;
+  border-radius: 20px 20px;
+  width: 21px;
+  font-size: 0.7em;
 }
 
 .list {
@@ -87,21 +109,6 @@ p {
 
 li {
   margin: 10px 0;
-}
-
-ul li:before {
-  content: "\2713";
-  justify-content: center;
-  align-content: center;
-  text-align: center;
-  display: inline-block;
-  color: green;
-  padding: 0 0 0 0;
-  border-color: green;
-  border: 1px solid;
-  border-radius: 20px 20px;
-  width: 21px;
-  font-size: 0.7em;
 }
 
 ul li {
