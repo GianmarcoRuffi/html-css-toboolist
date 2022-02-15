@@ -7,13 +7,19 @@
     <link rel="stylesheet" href="./css/style.css" />
     <title>To Boo List</title>
   </head>
+
+  <!-- Logo -->
+
   <header>
     <img id="logo" src="./img/Logo.png" alt="Logo" />
     <span id="logo">Toboolist</span>
   </header>
 
+<!-- Main body -->
+
   <body>
     <div class="container">
+        <!-- Buttons -->
       <nav>
         <div class="add-task button">
           <span>Add Task</span>
@@ -23,6 +29,54 @@
         </div>
       </nav>
       <hr />
+
+      <!-- To do list -->
+
+      <div class="list">
+        <p>&blacktriangledown; New Task</p>
+        <ul class="task">
+            <li>
+                <span class="done">&#10004;</span> Quarterly newsletter <span class="labels"
+                    id="bluelabel">Editorial</span>
+            </li>
+        </ul>
+        <p>&blacktriangledown; Today</p>
+        <ul class="task">
+            <li>
+                <span class="done">&#10004;</span> Recruiting blog post <span class="labels"
+                    id="bluelabel">Editorial</span>
+            </li>
+            <li>
+                <span class="done">&#10004;</span> Mobile app launch <span class="labels" id="purplelabel">Q1
+                    Goals</span>
+            </li>
+            <li>
+                <span class="undone">&#10799;</span> Interview John H. <span class="labels"
+                    id="greenlabel">Recruiting</span>
+            </li>
+            <li>
+                <span class="done">&#10004;</span> Summit update to mobile storefronts <span class="labels"
+                    id="orangelabel">Mobile</span>
+            </li>
+        </ul>
+        <p>&blacktriangledown; Upcoming</p>
+        <ul class="task">
+            <li>
+                <span class="undone">&#10799;</span> Schedule meeting with Alex
+            </li>
+            <li>
+                <span class="done">&#10004;</span> Homepage refresh <span class="labels"
+                    id="redlabel">Website</span>
+            </li>
+            <li>
+                <span class="done">&#10004;</span> Onboard new Sales team members <span class="labels"
+                    id="pistachiolabel">Sales</span>
+            </li>
+            <li>
+                <span class="done">&#10004;</span> Review editorial calendar <span class="labels"
+                    id="bluelabel">Editorial</span>
+            </li>
+        </ul>
     </div>
   </body>
 </html>
