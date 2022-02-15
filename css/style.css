@@ -18,9 +18,6 @@ header {
   width: 800px;
   margin: 30px auto;
   border-radius: 4px;
-  padding-left: 30px;
-  padding-top: 10px;
-  padding-bottom: 30px;
 }
 
 body {
@@ -46,7 +43,8 @@ body {
 }
 
 nav {
-  padding: 10px 20px 10px 20px;
+  padding: 10px 50px 10px 20px;
+  padding-left: 50px;
 }
 
 .button {
@@ -75,10 +73,12 @@ p {
 }
 
 .list {
-  padding: 50px 40px 50px 4 0px;
   color: rgb(82, 82, 82);
   font-size: 25px;
   line-height: 1.5em;
+  padding-left: 50px;
+  padding-bottom: 40px;
+  padding-top: 20px;
 }
 
 .task {
